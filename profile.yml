@@ -13,8 +13,8 @@ my_project:
       # Optional Redshift configs:
       sslmode: prefer
       role: None
-      ra3_node: true 
+      ra3_node: None 
       autocommit: true 
-      threads: 6
+      threads: 4
       connect_timeout: None
 
