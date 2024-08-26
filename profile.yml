@@ -1,0 +1,20 @@
+my_project:
+  target: dev
+  outputs:
+    dev:
+      type: redshift
+      host: default-workgroup.014498665366.us-east-1.redshift-serverless.amazonaws.com
+      user: admin
+      password: Harry123
+      dbname: dev
+      schema: dbt_core
+      port: 5439
+
+      # Optional Redshift configs:
+      sslmode: prefer
+      role: None
+      ra3_node: true 
+      autocommit: true 
+      threads: 6
+      connect_timeout: None
+

@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: ok
+    description: This table contains basic information about manufacturing details.
+    columns:
+      - name: date
+        description: The date of the manufacturing process.
+        # Uncomment if you want to apply the unique test
+        # tests:
+        #   - unique
+
+      - name: time
+        description: The time associated with the manufacturing process.
